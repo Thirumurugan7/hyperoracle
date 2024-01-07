@@ -14,7 +14,11 @@ To upload and publish your zkGraph, you should `Upload` (upload code to IPFS), a
 
 - **compile**: `npx zkgraph compile`
 - **exec**: `npx zkgraph exec <block id>`
-- **prove**: ` npx zkgraph prove <block id> <expected state> -i|-t|-p`  
+- **prove**: ` npx zkgraph prove <block id> <expected state>  --prove`  
+- **verify**: ` npx run verify <test id>`  
+- **upload**: ` npx run upload `  
+- **publish**: ` npx run prove publish  <ipfshash>`  
+- **verify**: ` npx run verify <test id>`  
 - ……
 
 Read more: https://github.com/hyperoracle/zkgraph-cli#cli
